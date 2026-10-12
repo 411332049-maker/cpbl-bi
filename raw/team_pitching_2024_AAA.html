@@ -1,0 +1,905 @@
+
+
+
+<div class="RecordTableOuter">
+    <div class="RecordTable">
+                <table>
+                    <tr>
+                        <th class="sticky player">球員</th>
+                        <!--sort(排序)、升冪(asc)、降冪(desc)-->
+                        <!--預設排序尚未決定-->
+                                <th class="num sort  desc" data-sortby="01">
+                                    出賽數
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="02">
+                                    先發
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="03">
+                                    救援
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="04">
+                                    完投
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="05">
+                                    完封
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="06">
+                                    無四死球
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="07">
+                                    勝場
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="08">
+                                    敗場
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="09">
+                                    救援成功
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="10">
+                                    中繼成功
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="11">
+                                    投球局數
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " title="每局被上壘率=(安打+四壞球)/投球局數" data-sortby="12">
+                                    每局被上壘率
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " title="防禦率=自責分*9/投球局數" data-sortby="13">
+                                    防禦率
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="14">
+                                    打席
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " title="長打數=二壘安打+三壘安打+全壘打" data-sortby="15">
+                                    投球數
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="16">
+                                    被安打
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="17">
+                                    被全壘打
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="18">
+                                    四壞
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="19">
+                                    （故四）
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="20">
+                                    死球
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="21">
+                                    奪三振
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="22">
+                                    暴投
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="23">
+                                    投手犯規
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="24">
+                                    失分
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="25">
+                                    自責分
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="26">
+                                    滾地出局
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="27">
+                                    高飛出局
+                                    <span class="sort_type"></span>
+                                </th>
+                                <th class="num sort " data-sortby="28">
+                                    滾飛出局比
+                                    <span class="sort_type"></span>
+                                </th>
+                    </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000007232">銳歐</a></td>
+                            <td class="num">63</td>
+                            <td class="num">2</td>
+                            <td class="num">61</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">25</td>
+                            <td class="num">92.1</td>
+                            <td class="num">0.78</td>
+                            <td class="num">1.17</td>
+                            <td class="num">351</td>
+                            <td class="num">1352</td>
+                            <td class="num">58</td>
+                            <td class="num">2</td>
+                            <td class="num">14</td>
+                            <td class="num">（0）</td>
+                            <td class="num">3</td>
+                            <td class="num">94</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">18</td>
+                            <td class="num">12</td>
+                            <td class="num">97</td>
+                            <td class="num">85</td>
+                            <td class="num">1.141</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005555">陳冠偉</a></td>
+                            <td class="num">58</td>
+                            <td class="num">0</td>
+                            <td class="num">58</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">4</td>
+                            <td class="num">22</td>
+                            <td class="num">7</td>
+                            <td class="num">56.0</td>
+                            <td class="num">0.91</td>
+                            <td class="num">1.77</td>
+                            <td class="num">220</td>
+                            <td class="num">820</td>
+                            <td class="num">37</td>
+                            <td class="num">2</td>
+                            <td class="num">14</td>
+                            <td class="num">（4）</td>
+                            <td class="num">1</td>
+                            <td class="num">72</td>
+                            <td class="num">4</td>
+                            <td class="num">0</td>
+                            <td class="num">15</td>
+                            <td class="num">11</td>
+                            <td class="num">40</td>
+                            <td class="num">56</td>
+                            <td class="num">0.714</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005788">林凱威</a></td>
+                            <td class="num">47</td>
+                            <td class="num">0</td>
+                            <td class="num">47</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">3</td>
+                            <td class="num">13</td>
+                            <td class="num">45.0</td>
+                            <td class="num">1.33</td>
+                            <td class="num">4.60</td>
+                            <td class="num">190</td>
+                            <td class="num">668</td>
+                            <td class="num">48</td>
+                            <td class="num">4</td>
+                            <td class="num">12</td>
+                            <td class="num">（1）</td>
+                            <td class="num">1</td>
+                            <td class="num">29</td>
+                            <td class="num">2</td>
+                            <td class="num">0</td>
+                            <td class="num">24</td>
+                            <td class="num">23</td>
+                            <td class="num">48</td>
+                            <td class="num">52</td>
+                            <td class="num">0.923</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005372">呂詠臻</a></td>
+                            <td class="num">43</td>
+                            <td class="num">0</td>
+                            <td class="num">43</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">9</td>
+                            <td class="num">35.0</td>
+                            <td class="num">1.31</td>
+                            <td class="num">3.60</td>
+                            <td class="num">151</td>
+                            <td class="num">572</td>
+                            <td class="num">31</td>
+                            <td class="num">1</td>
+                            <td class="num">15</td>
+                            <td class="num">（1）</td>
+                            <td class="num">0</td>
+                            <td class="num">32</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">15</td>
+                            <td class="num">14</td>
+                            <td class="num">30</td>
+                            <td class="num">43</td>
+                            <td class="num">0.698</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000000135">陳禹勳</a></td>
+                            <td class="num">41</td>
+                            <td class="num">0</td>
+                            <td class="num">41</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">2</td>
+                            <td class="num">2</td>
+                            <td class="num">9</td>
+                            <td class="num">38.1</td>
+                            <td class="num">1.10</td>
+                            <td class="num">5.17</td>
+                            <td class="num">161</td>
+                            <td class="num">600</td>
+                            <td class="num">31</td>
+                            <td class="num">6</td>
+                            <td class="num">11</td>
+                            <td class="num">（0）</td>
+                            <td class="num">7</td>
+                            <td class="num">37</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">24</td>
+                            <td class="num">22</td>
+                            <td class="num">31</td>
+                            <td class="num">44</td>
+                            <td class="num">0.705</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000001404">羅華韋</a></td>
+                            <td class="num">30</td>
+                            <td class="num">0</td>
+                            <td class="num">30</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">6</td>
+                            <td class="num">21.0</td>
+                            <td class="num">2.14</td>
+                            <td class="num">6.86</td>
+                            <td class="num">106</td>
+                            <td class="num">400</td>
+                            <td class="num">37</td>
+                            <td class="num">2</td>
+                            <td class="num">8</td>
+                            <td class="num">（0）</td>
+                            <td class="num">2</td>
+                            <td class="num">15</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">18</td>
+                            <td class="num">16</td>
+                            <td class="num">17</td>
+                            <td class="num">27</td>
+                            <td class="num">0.630</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000001603">王維中</a></td>
+                            <td class="num">24</td>
+                            <td class="num">19</td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">4</td>
+                            <td class="num">7</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">104.0</td>
+                            <td class="num">1.38</td>
+                            <td class="num">3.98</td>
+                            <td class="num">442</td>
+                            <td class="num">1723</td>
+                            <td class="num">105</td>
+                            <td class="num">5</td>
+                            <td class="num">39</td>
+                            <td class="num">（0）</td>
+                            <td class="num">6</td>
+                            <td class="num">63</td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">48</td>
+                            <td class="num">46</td>
+                            <td class="num">106</td>
+                            <td class="num">123</td>
+                            <td class="num">0.862</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006906">艾璞樂</a></td>
+                            <td class="num">24</td>
+                            <td class="num">24</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">10</td>
+                            <td class="num">11</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">150.2</td>
+                            <td class="num">1.09</td>
+                            <td class="num">2.75</td>
+                            <td class="num">609</td>
+                            <td class="num">2250</td>
+                            <td class="num">124</td>
+                            <td class="num">10</td>
+                            <td class="num">40</td>
+                            <td class="num">（0）</td>
+                            <td class="num">3</td>
+                            <td class="num">118</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">53</td>
+                            <td class="num">46</td>
+                            <td class="num">176</td>
+                            <td class="num">147</td>
+                            <td class="num">1.197</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006497">鋼龍</a></td>
+                            <td class="num">21</td>
+                            <td class="num">20</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">10</td>
+                            <td class="num">8</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">120.2</td>
+                            <td class="num">1.39</td>
+                            <td class="num">2.98</td>
+                            <td class="num">516</td>
+                            <td class="num">1957</td>
+                            <td class="num">119</td>
+                            <td class="num">10</td>
+                            <td class="num">49</td>
+                            <td class="num">（0）</td>
+                            <td class="num">4</td>
+                            <td class="num">87</td>
+                            <td class="num">7</td>
+                            <td class="num">0</td>
+                            <td class="num">49</td>
+                            <td class="num">40</td>
+                            <td class="num">141</td>
+                            <td class="num">116</td>
+                            <td class="num">1.216</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005543">徐若熙</a></td>
+                            <td class="num">20</td>
+                            <td class="num">18</td>
+                            <td class="num">2</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">7</td>
+                            <td class="num">4</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">94.2</td>
+                            <td class="num">1.11</td>
+                            <td class="num">2.47</td>
+                            <td class="num">383</td>
+                            <td class="num">1476</td>
+                            <td class="num">76</td>
+                            <td class="num">3</td>
+                            <td class="num">29</td>
+                            <td class="num">（2）</td>
+                            <td class="num">3</td>
+                            <td class="num">113</td>
+                            <td class="num">2</td>
+                            <td class="num">0</td>
+                            <td class="num">30</td>
+                            <td class="num">26</td>
+                            <td class="num">88</td>
+                            <td class="num">74</td>
+                            <td class="num">1.189</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006878">吳君奕</a></td>
+                            <td class="num">19</td>
+                            <td class="num">0</td>
+                            <td class="num">19</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">22.0</td>
+                            <td class="num">1.45</td>
+                            <td class="num">4.09</td>
+                            <td class="num">94</td>
+                            <td class="num">370</td>
+                            <td class="num">22</td>
+                            <td class="num">2</td>
+                            <td class="num">10</td>
+                            <td class="num">（0）</td>
+                            <td class="num">1</td>
+                            <td class="num">11</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">10</td>
+                            <td class="num">10</td>
+                            <td class="num">19</td>
+                            <td class="num">31</td>
+                            <td class="num">0.613</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000007055">張景淯</a></td>
+                            <td class="num">18</td>
+                            <td class="num">1</td>
+                            <td class="num">17</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">14.2</td>
+                            <td class="num">2.52</td>
+                            <td class="num">10.43</td>
+                            <td class="num">84</td>
+                            <td class="num">369</td>
+                            <td class="num">13</td>
+                            <td class="num">1</td>
+                            <td class="num">24</td>
+                            <td class="num">（0）</td>
+                            <td class="num">5</td>
+                            <td class="num">17</td>
+                            <td class="num">2</td>
+                            <td class="num">0</td>
+                            <td class="num">17</td>
+                            <td class="num">17</td>
+                            <td class="num">9</td>
+                            <td class="num">16</td>
+                            <td class="num">0.563</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005541">郭郁政</a></td>
+                            <td class="num">17</td>
+                            <td class="num">9</td>
+                            <td class="num">8</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">53.2</td>
+                            <td class="num">1.25</td>
+                            <td class="num">4.86</td>
+                            <td class="num">226</td>
+                            <td class="num">775</td>
+                            <td class="num">57</td>
+                            <td class="num">5</td>
+                            <td class="num">10</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">26</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">30</td>
+                            <td class="num">29</td>
+                            <td class="num">60</td>
+                            <td class="num">73</td>
+                            <td class="num">0.822</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000000762">伍鐸</a></td>
+                            <td class="num">17</td>
+                            <td class="num">17</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">7</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">89.0</td>
+                            <td class="num">1.36</td>
+                            <td class="num">3.34</td>
+                            <td class="num">376</td>
+                            <td class="num">1332</td>
+                            <td class="num">100</td>
+                            <td class="num">2</td>
+                            <td class="num">21</td>
+                            <td class="num">（0）</td>
+                            <td class="num">4</td>
+                            <td class="num">37</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">40</td>
+                            <td class="num">33</td>
+                            <td class="num">144</td>
+                            <td class="num">70</td>
+                            <td class="num">2.057</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000001821">林子昱</a></td>
+                            <td class="num">17</td>
+                            <td class="num">3</td>
+                            <td class="num">14</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">33.1</td>
+                            <td class="num">1.26</td>
+                            <td class="num">2.70</td>
+                            <td class="num">140</td>
+                            <td class="num">511</td>
+                            <td class="num">34</td>
+                            <td class="num">2</td>
+                            <td class="num">8</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">19</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">12</td>
+                            <td class="num">10</td>
+                            <td class="num">36</td>
+                            <td class="num">43</td>
+                            <td class="num">0.837</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006159">林逸達</a></td>
+                            <td class="num">13</td>
+                            <td class="num">0</td>
+                            <td class="num">13</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">13.2</td>
+                            <td class="num">1.17</td>
+                            <td class="num">1.98</td>
+                            <td class="num">57</td>
+                            <td class="num">196</td>
+                            <td class="num">8</td>
+                            <td class="num">1</td>
+                            <td class="num">8</td>
+                            <td class="num">（3）</td>
+                            <td class="num">1</td>
+                            <td class="num">15</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">4</td>
+                            <td class="num">3</td>
+                            <td class="num">10</td>
+                            <td class="num">15</td>
+                            <td class="num">0.667</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006160">李超</a></td>
+                            <td class="num">12</td>
+                            <td class="num">0</td>
+                            <td class="num">12</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">15.0</td>
+                            <td class="num">1.33</td>
+                            <td class="num">2.40</td>
+                            <td class="num">63</td>
+                            <td class="num">238</td>
+                            <td class="num">18</td>
+                            <td class="num">1</td>
+                            <td class="num">2</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">6</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">4</td>
+                            <td class="num">4</td>
+                            <td class="num">14</td>
+                            <td class="num">23</td>
+                            <td class="num">0.609</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000002279">吳俊杰</a></td>
+                            <td class="num">9</td>
+                            <td class="num">4</td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">26.2</td>
+                            <td class="num">1.65</td>
+                            <td class="num">6.41</td>
+                            <td class="num">120</td>
+                            <td class="num">464</td>
+                            <td class="num">33</td>
+                            <td class="num">2</td>
+                            <td class="num">11</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">15</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">19</td>
+                            <td class="num">19</td>
+                            <td class="num">28</td>
+                            <td class="num">33</td>
+                            <td class="num">0.848</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000001524">劉昱言</a></td>
+                            <td class="num">8</td>
+                            <td class="num">0</td>
+                            <td class="num">8</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">7.0</td>
+                            <td class="num">1.71</td>
+                            <td class="num">3.86</td>
+                            <td class="num">33</td>
+                            <td class="num">133</td>
+                            <td class="num">7</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">（0）</td>
+                            <td class="num">1</td>
+                            <td class="num">6</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">3</td>
+                            <td class="num">6</td>
+                            <td class="num">8</td>
+                            <td class="num">0.750</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006724">曹祐齊</a></td>
+                            <td class="num">6</td>
+                            <td class="num">3</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">19.0</td>
+                            <td class="num">1.00</td>
+                            <td class="num">1.42</td>
+                            <td class="num">76</td>
+                            <td class="num">266</td>
+                            <td class="num">11</td>
+                            <td class="num">0</td>
+                            <td class="num">8</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">14</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">3</td>
+                            <td class="num">30</td>
+                            <td class="num">13</td>
+                            <td class="num">2.308</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000002280">廖任磊</a></td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">4.2</td>
+                            <td class="num">2.36</td>
+                            <td class="num">11.57</td>
+                            <td class="num">24</td>
+                            <td class="num">103</td>
+                            <td class="num">7</td>
+                            <td class="num">1</td>
+                            <td class="num">4</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">6</td>
+                            <td class="num">6</td>
+                            <td class="num">8</td>
+                            <td class="num">4</td>
+                            <td class="num">2.000</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000006215">趙璟榮</a></td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">5</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">5.0</td>
+                            <td class="num">1.80</td>
+                            <td class="num">5.40</td>
+                            <td class="num">25</td>
+                            <td class="num">89</td>
+                            <td class="num">6</td>
+                            <td class="num">2</td>
+                            <td class="num">3</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">4</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">4</td>
+                            <td class="num">3</td>
+                            <td class="num">6</td>
+                            <td class="num">6</td>
+                            <td class="num">1.000</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005552">呂偉晟</a></td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1.2</td>
+                            <td class="num">2.40</td>
+                            <td class="num">10.80</td>
+                            <td class="num">9</td>
+                            <td class="num">34</td>
+                            <td class="num">3</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">2</td>
+                            <td class="num">2</td>
+                            <td class="num">3</td>
+                            <td class="num">2</td>
+                            <td class="num">1.500</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000000364">劉家愷</a></td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1.0</td>
+                            <td class="num">2.00</td>
+                            <td class="num">9.00</td>
+                            <td class="num">5</td>
+                            <td class="num">18</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">2</td>
+                            <td class="num">1</td>
+                            <td class="num">2.000</td>
+                        </tr>
+                        <tr>
+                            <td class="sticky player"><a href="/team/person?acnt=0000005789">林鋅杰</a></td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1.0</td>
+                            <td class="num">2.00</td>
+                            <td class="num">9.00</td>
+                            <td class="num">5</td>
+                            <td class="num">19</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">（0）</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">0</td>
+                            <td class="num">1</td>
+                            <td class="num">1</td>
+                            <td class="num">0</td>
+                            <td class="num">3</td>
+                            <td class="num">0.000</td>
+                        </tr>
+                </table>
+    </div>
+</div>
+
+    <div class="name_symbol_list">
+        ▲ - 非現役選手<br />
+    </div>
